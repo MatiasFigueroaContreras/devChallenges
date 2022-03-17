@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    /* max-width: 1440px; */
+    padding: 0 3%;
+}
+
+.cg {
+    color: #333333;
+}
+
+.f-sm {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    letter-spacing: -0.035em;
+}
+
+.tittle {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 18%;
+    margin-right: 7%;
+}
+
+.image {
+    max-width: 539.22px;
+    max-height: 414.25px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content {
+    margin-left: 9%;
+}
+
+.cont-tittle {
+    max-width: 586px;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.cont-info {
+    max-width: 381px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 9%;
+}
+
+.cont-button {
+    background-color: #333333;
+    color: #fff;
+
+    width: 216px;
+    height: 68px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .image {
+        max-width: 460px;
+        max-height: 353px;
+    }
+
+    .cont-tittle {
+        font-size: 60px;
+    }
+
+    .cont-info {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        margin: 15% auto;
+    }
+
+    .image {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .cont-tittle {
+        font-size: 52px;
+    }
+
+    .cont-info {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .cont-tittle {
+        font-size: 48px;
+    }
+
+    .cont-info {
+        font-size: 18px;
+    }
+}
